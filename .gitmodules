@@ -1,0 +1,4 @@
+[submodule "3rdparty/libjpeg-turbo"]
+	path = 3rdparty/libjpeg-turbo
+	url = https://github.com/iqsxw/libjpeg-turbo.git
+	branch = cropping
