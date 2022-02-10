@@ -46,7 +46,7 @@ public:
         Width = w;
         Height = h;
 
-        size = (w + (w & 0x7)) * h * channel;
+        size = (w + (w & 0xf) * 2 /* for padding */) * h * channel;
         data.reset(new uint8_t[size]);
     }
 
